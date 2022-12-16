@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>???</email>
+		<name>Waltz</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">https://github.com/hyprwm/xdg-desktop-portal-hyprland</remote-id>
+	</upstream>
+	<use>
+		<flag name="elogind">Enable support for rootless session via elogind</flag>
+		<flag name="select-window">Install optional dependencies needed to select a specific window to share</flag>
+		<flag name="select-region">Install optional dependencies needed to select a specific region to share</flag>
+	</use>
+</pkgmetadata>
