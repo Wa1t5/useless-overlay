@@ -1,10 +1,13 @@
 # Useless-Overlay
 
 ### gui-apps/waybar
-Flags += libcxx, experimental, hyprland
+Add flags: libcxx, experimental, hyprland
+
+### gui-apps/swaylock-effects
+Just a mirror
 
 ### gui-wm/hyprland
-Removed compiler check, you can build with clang, just need to use libstdc++ instead of clang's libcxx
+Fixed compiler check and filter libc++ flag
 
 ### gui-libs/xdg-desktop-portal-hyprland
 Clone of xdg-desktop-wlr modified to build and install xdg-desktop-portal-wlr
