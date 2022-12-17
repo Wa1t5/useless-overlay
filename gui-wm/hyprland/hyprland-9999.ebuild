@@ -20,7 +20,7 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="system-wlroots X vulkan"
+IUSE="system-wlroots X"
 
 DEPEND="
 	dev-libs/libevdev
