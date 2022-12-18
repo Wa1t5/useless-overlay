@@ -76,8 +76,5 @@ src_compile() {
 
 src_install() {
 	meson_install
-
-	# Manually install hyprland-share-picker
-	mkdir "${D}"/usr/bin
-	cp hyprland-share-picker/build/hyprland-share-picker "${D}"/usr/bin
+	dobin hyprland-share-picker/build/hyprland-share-picker
 }
