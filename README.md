@@ -10,4 +10,4 @@ Just a mirror
 Fixed compiler check and filter libc++ flag
 
 ### gui-libs/xdg-desktop-portal-hyprland
-Clone of xdg-desktop-wlr modified to build and install xdg-desktop-portal-wlr
+Clone of xdg-desktop-wlr modified to build and install xdg-desktop-portal-hyprland
